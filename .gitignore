@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+.env
+.env.*
+logs/
+*.log
+npm-debug.log*
+dist/
+build/
+# OS
+.DS_Store
+Thumbs.db
+# n8n
+n8n_data/
+# Others
+*.bak
+*.swp
+*.tmp
+# Ignore workflow import temp
+/tmp/
+# Ignore Docker volumes
+n8n_data/
+# Ignore sensitive config
+*.local
